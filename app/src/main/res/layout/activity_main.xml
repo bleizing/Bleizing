@@ -7,10 +7,68 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.bleizing.bleizing.MainActivity">
+    tools:context=".Activity.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INFORMATION"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_unit_testing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UNIT TESTING"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_gps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GPS"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DATA WEB SERVER"/>
+
+        </TableRow>
+
+    </TableLayout>
+
 </RelativeLayout>
